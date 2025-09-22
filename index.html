@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main id="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1 class="title">My Tasks</h1>
+            <p id="date-display" class="subtitle"></p>
+        </header>
+
+        <!-- Add Task Form -->
+        <form id="add-task-form">
+            <input type="text" id="task-input" placeholder="What's next on your list?">
+            <button type="submit" id="add-task-btn">Add Task</button>
+        </form>
+
+        <!-- Filters and Task Lists -->
+        <div class="task-sections">
+            <!-- In Progress Tasks -->
+            <section class="task-list-section">
+                <h2>In Progress</h2>
+                <ul id="pending-tasks-list">
+                    <!-- Task items will be injected here by JavaScript -->
+                </ul>
+            </section>
+
+            <!-- Completed Tasks -->
+            <section class="task-list-section">
+                <h2>Completed</h2>
+                <ul id="completed-tasks-list">
+                    <!-- Completed task items will be injected here -->
+                </ul>
+                <p id="encouragement" class="encouragement-message"></p>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

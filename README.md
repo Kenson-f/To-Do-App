@@ -32,4 +32,4 @@ The app is organized into three files for a clean separation of concerns:
 ---
 
 ## Live Hosting Using Vercel:
-to-do-app-kohl-beta.vercel.app
+https://to-do-app-kohl-beta.vercel.app
